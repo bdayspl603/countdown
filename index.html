@@ -14,7 +14,7 @@
       height: 100vh;
       margin: 0;
     }
-    .countdown {
+    .container {
       text-align: center;
     }
     h1 {
@@ -24,13 +24,20 @@
     .time {
       font-size: 2em;
       letter-spacing: 2px;
+      margin-bottom: 30px;
+    }
+    .amount {
+      font-size: 2.2em;
+      font-weight: bold;
+      color: #e0e1dd;
     }
   </style>
 </head>
 <body>
-  <div class="countdown">
+  <div class="container">
     <h1>Countdown to May 4, 2026</h1>
     <div class="time" id="timer"></div>
+    <div class="amount">₹10000</div>
   </div>
 
   <script>
